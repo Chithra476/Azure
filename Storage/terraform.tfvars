@@ -1,0 +1,7 @@
+storage_name          = "mystorageaccount"
+resource_group_name   = "myResourceGroup"
+location              = "East US"
+account_tier          = "Standard"
+account_replication_type = "LRS"
+environment           = "Terraform Storage"
+created_by            = "Admin"
