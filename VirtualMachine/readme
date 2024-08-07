@@ -1,0 +1,13 @@
+# Terraform Azure Network and Virtual Machine Configuration
+
+This Terraform configuration sets up an Azure Virtual Network, Subnet, Public IP, Network Interface, Storage Account, and Virtual Machine. The configuration uses input variables to allow customization of the resources.
+
+## Prerequisites
+
+- [Terraform](https://www.terraform.io/downloads.html) installed
+- An Azure account with appropriate permissions
+- Azure CLI installed and authenticated (`az login`)
+
+## Files
+
+- `main.tf`: The main Terraform configuration file
