@@ -1,0 +1,25 @@
+# Terraform Azure Network Configuration
+
+This Terraform configuration sets up a virtual network with two subnets in Azure. The resource group name and location are configurable via variables.
+
+## Prerequisites
+
+- [Terraform](https://www.terraform.io/downloads.html) installed
+- An Azure account with appropriate permissions
+- Azure CLI installed and authenticated (`az login`)
+
+## Files
+
+- `main.tf`: The main Terraform configuration file that defines the resources.
+- `variables.tf`: The file that defines the input variables.
+- `terraform.tfvars`: The file that provides values for the input variables.
+
+## Usage
+
+### 1. Clone the Repository
+
+Clone this repository to your local machine.
+
+```bash
+git clone <repository_url>
+cd <repository_directory>
