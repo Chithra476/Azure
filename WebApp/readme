@@ -1,6 +1,6 @@
-# Terraform Azure Network and Virtual Machine Configuration
+# Terraform Azure App Service and App Service Plan Configuration
 
-This Terraform configuration sets up an Azure Virtual Network, Subnet, Public IP, Network Interface, Storage Account, and Virtual Machine. The configuration uses input variables to allow customization of the resources.
+This Terraform configuration sets up an Azure App Service Plan and an App Service. The configuration uses input variables to allow customization of the resources.
 
 ## Prerequisites
 
